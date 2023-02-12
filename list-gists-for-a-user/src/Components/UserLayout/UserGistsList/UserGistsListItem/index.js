@@ -86,7 +86,6 @@ const UserGistsListItem = (props) => {
 						 	<Divider orientation="horizontal" />
 						</Center>
 						{data.forks.map(function(fork, index){
-							console.log(fork);
 							return (
 								<>
 									<Flex flex="1" gap="4" alignItems="center" flexWrap="wrap" paddingTop="10px" paddingBottom="10px">

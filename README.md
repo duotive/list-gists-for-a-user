@@ -25,3 +25,5 @@ Other libraries that where used, are stables of React programming, like Axios ( 
 ## Next steps
 1. Create tests for the app.
 2. Create a OAUTH login for the app, to avoid the rate-limit that might come up, using the personal token.
+3. Optimize UI.
+4. Fix warnings.

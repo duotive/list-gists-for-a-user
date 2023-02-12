@@ -1,0 +1,4 @@
+@import-normalize;
+body {
+	background: var(--chakra-colors-gray-100);
+}

@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import UserGists from './Components/UserGists';
+import env from "react-dotenv";
 
 import { ChakraProvider } from '@chakra-ui/react'
 import { RecoilRoot } from 'recoil';
@@ -10,7 +11,7 @@ import { RecoilRoot } from 'recoil';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 axios.interceptors.request.use(function (config) {
-    config.headers.authorization = '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';
+    config.headers.authorization = env.GIT_PERSONAL_ACCESS_TOKEN;
     return config;
 });
 
